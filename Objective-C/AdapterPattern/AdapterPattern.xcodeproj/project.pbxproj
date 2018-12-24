@@ -13,6 +13,8 @@
 		F7B916E921D0BC3200A7D4B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7B916E821D0BC3200A7D4B5 /* Assets.xcassets */; };
 		F7B916EC21D0BC3200A7D4B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7B916EA21D0BC3200A7D4B5 /* LaunchScreen.storyboard */; };
 		F7B916EF21D0BC3200A7D4B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B916EE21D0BC3200A7D4B5 /* main.m */; };
+		F7B916F821D0CD7200A7D4B5 /* DYSDemo01ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B916F621D0CD7200A7D4B5 /* DYSDemo01ViewController.m */; };
+		F7B916F921D0CD7200A7D4B5 /* DYSDemo01ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7B916F721D0CD7200A7D4B5 /* DYSDemo01ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		F7B916EB21D0BC3200A7D4B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7B916ED21D0BC3200A7D4B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7B916EE21D0BC3200A7D4B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7B916F521D0CD7200A7D4B5 /* DYSDemo01ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSDemo01ViewController.h; sourceTree = "<group>"; };
+		F7B916F621D0CD7200A7D4B5 /* DYSDemo01ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDemo01ViewController.m; sourceTree = "<group>"; };
+		F7B916F721D0CD7200A7D4B5 /* DYSDemo01ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DYSDemo01ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +67,9 @@
 				F7B916E021D0BC3000A7D4B5 /* AppDelegate.m */,
 				F7B916E221D0BC3000A7D4B5 /* ViewController.h */,
 				F7B916E321D0BC3000A7D4B5 /* ViewController.m */,
+				F7B916F521D0CD7200A7D4B5 /* DYSDemo01ViewController.h */,
+				F7B916F621D0CD7200A7D4B5 /* DYSDemo01ViewController.m */,
+				F7B916F721D0CD7200A7D4B5 /* DYSDemo01ViewController.xib */,
 				F7B916E521D0BC3000A7D4B5 /* Main.storyboard */,
 				F7B916E821D0BC3200A7D4B5 /* Assets.xcassets */,
 				F7B916EA21D0BC3200A7D4B5 /* LaunchScreen.storyboard */,
@@ -97,6 +105,7 @@
 		F7B916D421D0BC3000A7D4B5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = DYS;
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "丁玉松";
 				TargetAttributes = {
@@ -129,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7B916EC21D0BC3200A7D4B5 /* LaunchScreen.storyboard in Resources */,
+				F7B916F921D0CD7200A7D4B5 /* DYSDemo01ViewController.xib in Resources */,
 				F7B916E921D0BC3200A7D4B5 /* Assets.xcassets in Resources */,
 				F7B916E721D0BC3000A7D4B5 /* Main.storyboard in Resources */,
 			);
@@ -142,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7B916E421D0BC3000A7D4B5 /* ViewController.m in Sources */,
+				F7B916F821D0CD7200A7D4B5 /* DYSDemo01ViewController.m in Sources */,
 				F7B916EF21D0BC3200A7D4B5 /* main.m in Sources */,
 				F7B916E121D0BC3000A7D4B5 /* AppDelegate.m in Sources */,
 			);
