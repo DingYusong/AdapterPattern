@@ -10,7 +10,6 @@
 
 @implementation DYSPeople
 
-
 - (instancetype)initWithXingMing:(NSString *)xingMing {
     self = [super init];
     if (self) {
@@ -20,7 +19,7 @@
 }
 
 - (void)sayXingMing {
-    NSLog(@"我叫:%@",self.xingMing);
+    NSLog(@"我叫:%@", self.xingMing);
 }
 
 @end

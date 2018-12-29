@@ -10,7 +10,6 @@
 
 @interface DYSAdapter ()
 
-
 @end
 
 @implementation DYSAdapter
@@ -23,12 +22,12 @@
     return self;
 }
 
--(NSString *)name {
+- (NSString *)name {
     return self.people.xingMing;
 }
 
 - (void)speakName {
-    NSLog(@"我叫：%@",self.name);
+    NSLog(@"我叫：%@", self.name);
 }
 
 @synthesize name;
