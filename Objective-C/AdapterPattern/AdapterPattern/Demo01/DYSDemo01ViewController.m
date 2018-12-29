@@ -11,6 +11,8 @@
 #import "DYSCourse.h"
 #import "DYSPeople.h"
 
+#import "DYSStudent.h"
+
 @interface DYSDemo01ViewController ()
 
 @end
@@ -21,6 +23,13 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 
+    DYSStudent *student1 = [DYSStudent new];
+    student1.name = @"张三";
+    DYSStudent *student2 = [DYSStudent new];
+    student2.name = @"李四";
+    DYSStudent *student3 = [DYSStudent new];
+    student3.name = @"王麻子";
+
     DYSPeople *people1 = [[DYSPeople alloc] initWithXingMing:@"小张"];
     DYSPeople *people2 = [[DYSPeople alloc] initWithXingMing:@"小李"];
     DYSPeople *people3 = [[DYSPeople alloc] initWithXingMing:@"小王"];
@@ -30,6 +39,10 @@
     DYSAdapter *adapterPeople3 = [[DYSAdapter alloc] initWithPeople:people3];
 
     DYSCourse *course = [DYSCourse new];
+    [course addStaff:student1];
+    [course addStaff:student2];
+    [course addStaff:student3];
+    
     [course addStaff:adapterPeople1];
     [course addStaff:adapterPeople2];
     [course addStaff:adapterPeople3];

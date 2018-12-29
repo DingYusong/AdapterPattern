@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35F0C81221D7C22B005FDC77 /* DYSStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F0C81121D7C22B005FDC77 /* DYSStudent.m */; };
 		F7B916E121D0BC3000A7D4B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B916E021D0BC3000A7D4B5 /* AppDelegate.m */; };
 		F7B916E421D0BC3000A7D4B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B916E321D0BC3000A7D4B5 /* ViewController.m */; };
 		F7B916E721D0BC3000A7D4B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7B916E521D0BC3000A7D4B5 /* Main.storyboard */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		35F0C81021D7C22B005FDC77 /* DYSStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSStudent.h; sourceTree = "<group>"; };
+		35F0C81121D7C22B005FDC77 /* DYSStudent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSStudent.m; sourceTree = "<group>"; };
 		F7B916DC21D0BC3000A7D4B5 /* AdapterPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdapterPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7B916DF21D0BC3000A7D4B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F7B916E021D0BC3000A7D4B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -113,6 +116,8 @@
 			isa = PBXGroup;
 			children = (
 				F7DCBDA421D7749700B176F6 /* DYSAdapterProtocol.h */,
+				35F0C81021D7C22B005FDC77 /* DYSStudent.h */,
+				35F0C81121D7C22B005FDC77 /* DYSStudent.m */,
 				F7DCBDB121D784D100B176F6 /* 新增的适配器 */,
 			);
 			path = "适配器类";
@@ -214,6 +219,7 @@
 				F7DCBDAD21D7772B00B176F6 /* DYSCourse.m in Sources */,
 				F7DCBDAA21D775A700B176F6 /* DYSPeople.m in Sources */,
 				F7B916EF21D0BC3200A7D4B5 /* main.m in Sources */,
+				35F0C81221D7C22B005FDC77 /* DYSStudent.m in Sources */,
 				F7B916E121D0BC3000A7D4B5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
