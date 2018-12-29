@@ -15,6 +15,9 @@
 		F7B916EF21D0BC3200A7D4B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B916EE21D0BC3200A7D4B5 /* main.m */; };
 		F7B916F821D0CD7200A7D4B5 /* DYSDemo01ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7B916F621D0CD7200A7D4B5 /* DYSDemo01ViewController.m */; };
 		F7B916F921D0CD7200A7D4B5 /* DYSDemo01ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F7B916F721D0CD7200A7D4B5 /* DYSDemo01ViewController.xib */; };
+		F7DCBDA721D7756700B176F6 /* DYSAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DCBDA621D7756700B176F6 /* DYSAdapter.m */; };
+		F7DCBDAA21D775A700B176F6 /* DYSPeople.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DCBDA921D775A700B176F6 /* DYSPeople.m */; };
+		F7DCBDAD21D7772B00B176F6 /* DYSCourse.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DCBDAC21D7772B00B176F6 /* DYSCourse.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,13 @@
 		F7B916F521D0CD7200A7D4B5 /* DYSDemo01ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSDemo01ViewController.h; sourceTree = "<group>"; };
 		F7B916F621D0CD7200A7D4B5 /* DYSDemo01ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSDemo01ViewController.m; sourceTree = "<group>"; };
 		F7B916F721D0CD7200A7D4B5 /* DYSDemo01ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DYSDemo01ViewController.xib; sourceTree = "<group>"; };
+		F7DCBDA421D7749700B176F6 /* DYSAdapterProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSAdapterProtocol.h; sourceTree = "<group>"; };
+		F7DCBDA521D7756700B176F6 /* DYSAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSAdapter.h; sourceTree = "<group>"; };
+		F7DCBDA621D7756700B176F6 /* DYSAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSAdapter.m; sourceTree = "<group>"; };
+		F7DCBDA821D775A700B176F6 /* DYSPeople.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSPeople.h; sourceTree = "<group>"; };
+		F7DCBDA921D775A700B176F6 /* DYSPeople.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSPeople.m; sourceTree = "<group>"; };
+		F7DCBDAB21D7772B00B176F6 /* DYSCourse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DYSCourse.h; sourceTree = "<group>"; };
+		F7DCBDAC21D7772B00B176F6 /* DYSCourse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DYSCourse.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,9 +77,7 @@
 				F7B916E021D0BC3000A7D4B5 /* AppDelegate.m */,
 				F7B916E221D0BC3000A7D4B5 /* ViewController.h */,
 				F7B916E321D0BC3000A7D4B5 /* ViewController.m */,
-				F7B916F521D0CD7200A7D4B5 /* DYSDemo01ViewController.h */,
-				F7B916F621D0CD7200A7D4B5 /* DYSDemo01ViewController.m */,
-				F7B916F721D0CD7200A7D4B5 /* DYSDemo01ViewController.xib */,
+				F7DCBDA321D773F500B176F6 /* Demo01 */,
 				F7B916E521D0BC3000A7D4B5 /* Main.storyboard */,
 				F7B916E821D0BC3200A7D4B5 /* Assets.xcassets */,
 				F7B916EA21D0BC3200A7D4B5 /* LaunchScreen.storyboard */,
@@ -77,6 +85,55 @@
 				F7B916EE21D0BC3200A7D4B5 /* main.m */,
 			);
 			path = AdapterPattern;
+			sourceTree = "<group>";
+		};
+		F7DCBDA321D773F500B176F6 /* Demo01 */ = {
+			isa = PBXGroup;
+			children = (
+				F7B916F521D0CD7200A7D4B5 /* DYSDemo01ViewController.h */,
+				F7B916F621D0CD7200A7D4B5 /* DYSDemo01ViewController.m */,
+				F7B916F721D0CD7200A7D4B5 /* DYSDemo01ViewController.xib */,
+				F7DCBDAF21D783A400B176F6 /* 适配器类 */,
+				F7DCBDAE21D7838E00B176F6 /* 原来不可修改的类 */,
+				F7DCBDB021D783B800B176F6 /* 客户类 */,
+			);
+			path = Demo01;
+			sourceTree = "<group>";
+		};
+		F7DCBDAE21D7838E00B176F6 /* 原来不可修改的类 */ = {
+			isa = PBXGroup;
+			children = (
+				F7DCBDA821D775A700B176F6 /* DYSPeople.h */,
+				F7DCBDA921D775A700B176F6 /* DYSPeople.m */,
+			);
+			path = "原来不可修改的类";
+			sourceTree = "<group>";
+		};
+		F7DCBDAF21D783A400B176F6 /* 适配器类 */ = {
+			isa = PBXGroup;
+			children = (
+				F7DCBDA421D7749700B176F6 /* DYSAdapterProtocol.h */,
+				F7DCBDB121D784D100B176F6 /* 新增的适配器 */,
+			);
+			path = "适配器类";
+			sourceTree = "<group>";
+		};
+		F7DCBDB021D783B800B176F6 /* 客户类 */ = {
+			isa = PBXGroup;
+			children = (
+				F7DCBDAB21D7772B00B176F6 /* DYSCourse.h */,
+				F7DCBDAC21D7772B00B176F6 /* DYSCourse.m */,
+			);
+			path = "客户类";
+			sourceTree = "<group>";
+		};
+		F7DCBDB121D784D100B176F6 /* 新增的适配器 */ = {
+			isa = PBXGroup;
+			children = (
+				F7DCBDA521D7756700B176F6 /* DYSAdapter.h */,
+				F7DCBDA621D7756700B176F6 /* DYSAdapter.m */,
+			);
+			path = "新增的适配器";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +210,9 @@
 			files = (
 				F7B916E421D0BC3000A7D4B5 /* ViewController.m in Sources */,
 				F7B916F821D0CD7200A7D4B5 /* DYSDemo01ViewController.m in Sources */,
+				F7DCBDA721D7756700B176F6 /* DYSAdapter.m in Sources */,
+				F7DCBDAD21D7772B00B176F6 /* DYSCourse.m in Sources */,
+				F7DCBDAA21D775A700B176F6 /* DYSPeople.m in Sources */,
 				F7B916EF21D0BC3200A7D4B5 /* main.m in Sources */,
 				F7B916E121D0BC3000A7D4B5 /* AppDelegate.m in Sources */,
 			);
